@@ -21,6 +21,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	implementation group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '6.0'
 	compile 'org.springframework.cloud:spring-cloud-starter-sleuth'
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-zipkin', version: '2.2.7.RELEASE'
 	compileOnly 'org.projectlombok:lombok'
